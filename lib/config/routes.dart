@@ -1,4 +1,4 @@
-import '../homepage/screens/home_page.dart';
+import '../home/screens/home_page.dart';
 
 class AppRoutes {
   static routes() {
@@ -9,5 +9,5 @@ class AppRoutes {
 
   static home() {
     return HomePageScreen.routeName;
-}
+  }
 }
